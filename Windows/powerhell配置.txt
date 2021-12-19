@@ -1,0 +1,22 @@
+Install-Module posh-git -Scope CurrentUser
+>> Install-Module oh-my-posh -Scope CurrentUser
+Get-PoshThemes
+ if (!(Test-Path -Path $PROFILE )) { New-Item -Type File -Path $PROFILE -Force }
+notepad $profile
+
+
+
+
+Import-Module posh-git 
+Import-Module oh-my-posh 
+Set-PoshPrompt agnosterplus
+
+emodipt
+powerlevel10k_lean
+hotstick.minimal
+iterm2
+mt
+pararussel
+robbyrussel
+tonybaloney
+star
