@@ -43,6 +43,9 @@
 	//光标颜色以及光标样式
 	"cursorColor": "#ffffff",
 	"cursorShape":"underscore",
+    	"backgroundImage" : "C:\\Users\\22729\\Desktop\\杂\\图片\\137.jpg",
+    	"backgroundImageOpacity" : 0.4,
+    	"backgroundImageStrechMode" : "fill",
         },
         "list":
         [
