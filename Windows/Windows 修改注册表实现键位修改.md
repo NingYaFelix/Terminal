@@ -10,7 +10,8 @@
 3. [00 00] [00 01] 每四个字节为一组，表示两个键位，前两个字节表示 a, 后两个字节表示 b [ a 映射到 b ]
 4. 末尾添加 四个字节的 0
 ```
-![image](https://github.com/NingYaFelix/Terminal/assets/67058360/578afe95-c568-44a0-b609-17e62e3491e7)
+![image](https://github.com/NingYaFelix/Terminal/assets/67058360/42c39b53-13dd-4374-8d40-71a775e162c6)
+
 
 ## 键位映射参考 键位码
 ```
