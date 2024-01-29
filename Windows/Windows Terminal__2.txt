@@ -37,43 +37,37 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "defaultProfile": "{607e5285-6ed1-47ce-86b0-9056ef0932e1}",
     "initialCols": 80,
     "initialRows": 25,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
         {
-            "background": "#333333",
-            "backgroundImage": "C:\\Users\\22729\\Desktop\\\u6742\\\u56fe\u7247\\137.jpg",
-            "backgroundImageOpacity": 0.200000000000000000000000009,
+            //"background": "#333333",
+            "backgroundImage": "C:\\Users\\oxo\\Desktop\\杂\\黑.png",
+            "backgroundImageOpacity": 0.4,
+            "colorScheme": "Vintage",
             "cursorColor": "#FFFFFF",
             "cursorShape": "underscore",
             "font": 
             {
                 "face": "CaskaydiaCove Nerd Font Mono",
-                "size": 11
+                "size": 11.0
             },
             "opacity": 66,
-            "colorScheme": "Flat UI Palette v1 Modified",
-            "acrylicOpacity": 0.9,
             "padding": "10,10,10,10",
-            "useAcrylic": true
+            //"useAcrylic": true,
+            //"acrylicOpacity":0.1
         },
         "list": 
         [
-            {
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
-                "name": "Ubuntu",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
             {
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
@@ -91,21 +85,86 @@
                 "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
             },
             {
-                "guid": "{a66bece6-a4a2-555d-b287-cacd5e089b96}",
+                "commandline": "C:\\Apps\\Terminal\\Powershell7\\7\\pwsh.exe",
+                "guid": "{607e5285-6ed1-47ce-86b0-9056ef0932e1}",
                 "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{0d4a03d5-17c9-5601-9ecb-b09e1455c533}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
+                "icon": "C:\\Apps\\Terminal\\Powershell7\\7\\assets\\Powershell_av_colors.ico",
+                "name": "Powershell"
+                //"experimental.retroTerminalEffect":true
             }
         ]
     },
     "schemes": 
     [
+        {
+            "name": "Adventure",
+            "black": "#040404",
+            "red": "#d84a33",
+            "green": "#5da602",
+            "yellow": "#eebb6e",
+            "blue": "#417ab3",
+            "purple": "#e5c499",
+            "cyan": "#bdcfe5",
+            "white": "#dbded8",
+            "brightBlack": "#685656",
+            "brightRed": "#d76b42",
+            "brightGreen": "#99b52c",
+            "brightYellow": "#ffb670",
+            "brightBlue": "#97d7ef",
+            "brightPurple": "#aa7900",
+            "brightCyan": "#bdcfe5",
+            "brightWhite": "#e4d5c7",
+            "background": "#040404",
+            "foreground": "#feffff",
+            "cursorColor": "#feffff",
+            "selectionBackground": "#606060"
+        },
+        {
+            "name": "iTerm2 Default",
+            "black": "#000000",
+            "red": "#c91b00",
+            "green": "#00c200",
+            "yellow": "#c7c400",
+            "blue": "#2225c4",
+            "purple": "#ca30c7",
+            "cyan": "#00c5c7",
+            "white": "#ffffff",
+            "brightBlack": "#686868",
+            "brightRed": "#ff6e67",
+            "brightGreen": "#5ffa68",
+            "brightYellow": "#fffc67",
+            "brightBlue": "#6871ff",
+            "brightPurple": "#ff77ff",
+            "brightCyan": "#60fdff",
+            "brightWhite": "#ffffff",
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "cursorColor": "#e5e5e5",
+            "selectionBackground": "#c1deff"
+        },
+        {
+            "name": "VibrantInk",
+            "black": "#878787",
+            "red": "#ff6600",
+            "green": "#ccff04",
+            "yellow": "#ffcc00",
+            "blue": "#44b4cc",
+            "purple": "#9933cc",
+            "cyan": "#44b4cc",
+            "white": "#f5f5f5",
+            "brightBlack": "#555555",
+            "brightRed": "#ff0000",
+            "brightGreen": "#00ff00",
+            "brightYellow": "#ffff00",
+            "brightBlue": "#0000ff",
+            "brightPurple": "#ff00ff",
+            "brightCyan": "#00ffff",
+            "brightWhite": "#e5e5e5",
+            "background": "#000000",
+            "foreground": "#ffffff",
+            "cursorColor": "#ffffff",
+            "selectionBackground": "#b5d5ff"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -336,5 +395,8 @@
             "white": "#C0C0C0",
             "yellow": "#808000"
         }
-    ]
+    ],
+    "tabWidthMode": "titleLength",
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
