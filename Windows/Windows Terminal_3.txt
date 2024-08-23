@@ -50,19 +50,20 @@
     "profiles": 
     {
         "defaults": 
-        {
-            "backgroundImageOpacity": 0.4,
-            "colorScheme": "Vintage",
+        {   
+            "background": "#000000",
+            "opacity": 80,
+            "colorScheme": "iTerm2 Default",
             "cursorColor": "#FFFFFF",
             "cursorShape": "underscore",
             "font": 
             {
                 "face": "CaskaydiaCove Nerd Font Mono",
-                "size": 9
+                "size": 9.0
             },
-            "opacity": 66,
             "padding": "0.1, 0, 0, 0",
-            "scrollbarState": "hidden"
+            "scrollbarState": "hidden",
+            "useAcrylic": false
         },
         "list": 
         [
@@ -395,7 +396,7 @@
         {
             "background": "#000000",
             "black": "#000000",
-            "blue": "#2225C4",
+            "blue": "#1C70C4",
             "brightBlack": "#686868",
             "brightBlue": "#6871FF",
             "brightCyan": "#60FDFF",
