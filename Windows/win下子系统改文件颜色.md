@@ -17,7 +17,7 @@ OTHER_WRITABLE 30;46 # dir that is other-writable (o+w) and not sticky
 
 ### 修改完保存即可。
 
-常见样式参考：
+### 常见样式参考：
 ```text
 00 　　　 //默认
 01 　　 　//加粗

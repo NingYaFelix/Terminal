@@ -33,7 +33,7 @@
             // Put settings here that you want to apply to all profiles.
 	"background": "#333333",
 	"cursorColor": "#333333",
-	//毛玻璃效果
+	//毛玻璃效果;
 	"useAcrylic": true,
 	"acrylicOpacity":0.6555555555555555,
 	//"fontFace":"3270Narrow NF",	
